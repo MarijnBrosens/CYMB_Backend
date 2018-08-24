@@ -1,0 +1,10 @@
+{
+  "name": "cymb-backend",
+  "version": "1.0.0",
+  "description": "Kirby powered backend for Conny Mirbach’s portfolio",
+  "author": "Studio Scholz <„dev@studioscholz.info“>",
+  "private": true,
+  "scripts": {
+    "dev": "php -S localhost:8000 kirby/router.php"
+  }
+}

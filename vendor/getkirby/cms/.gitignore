@@ -1,0 +1,11 @@
+.DS_Store
+
+/tests/coverage
+/vendor
+/dist.zip
+/dist
+
+.php_cs.cache
+
+*.sublime-project
+*.sublime-workspace

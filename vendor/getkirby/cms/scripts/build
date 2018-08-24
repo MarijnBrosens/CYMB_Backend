@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Building Kirby"
+
+cd panel
+npm i
+npm run build
+
+cd ../
+
+composer run-script fix
+composer update --no-dev
+composer dump-autoload -o
+composer run-script zip
