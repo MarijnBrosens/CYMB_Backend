@@ -1,0 +1,21 @@
+title: Frontpage Image
+
+accept:
+  mime: image/jpeg, image/png
+
+fields:
+  project:
+      label: Projekt
+      type: select
+      options: query
+      query: site.page("projects").children
+
+  sizing:
+    label: Größe
+    type: select
+    required: true
+    options:
+      cover: Randabfallend
+      contained: Füllend
+      large: Groß
+    default: large

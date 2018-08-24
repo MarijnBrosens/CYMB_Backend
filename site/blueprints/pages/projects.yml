@@ -1,0 +1,31 @@
+name: projects
+title: Projekte
+
+icon: 📷
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: false
+  delete: false
+  preview: false
+
+sections:
+  drafts:
+    extends: sections/projects
+    headline:
+      en: Project drafts
+      de: Projekt Entwürfe
+    layout: list
+    status: draft
+
+  published:
+    extends: sections/projects
+    headline:
+      en: Published projects
+      de: Veröffentlichte Projekte
+    status: listed
+    item:
+      image:
+        ratio: 3/2

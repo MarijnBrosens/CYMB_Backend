@@ -1,0 +1,17 @@
+Template: project-image
+
+----
+
+Featured: true
+
+----
+
+Sizing: large
+
+----
+
+Position: left
+
+----
+
+Combine: combined

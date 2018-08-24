@@ -1,0 +1,51 @@
+title: Site
+
+tabs:
+  pages:
+    label: Content
+    icon: page
+    columns:
+      - 1/1: projects
+  settings:
+    label: Einstellungen
+    icon: cog
+    columns:
+      - 2/3: settingsContent
+      - 1/3: settingsDefaults
+
+sections:
+
+  projects:
+    headline: Content
+    type: pages
+    status: listed
+    item:
+      image: false
+      info: "{{ page.template }}"
+
+  settingsContent:
+    type: fields
+    fields:
+      metaTitle:
+        label: Meta Title
+        type: text
+        required: true
+      metaDescription:
+        label: Meta Description
+        type: textarea
+        size: small
+        maxlength: 150
+      tags:
+        label: Tags
+        type: tags
+
+  settingsDefaults:
+    type: fields
+    fields:
+      copyright:
+        label: Copyright
+        type: textarea
+        size: small
+        buttons:
+          - link
+        disabled: false

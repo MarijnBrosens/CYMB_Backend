@@ -1,0 +1,16 @@
+name: home
+title: Startseite
+
+icon: 🏕
+
+options:
+  delete: false
+  status: false
+  url: false
+
+sections:
+
+  images:
+    extends: sections/images
+    headline: Slideshow
+    template: home-image

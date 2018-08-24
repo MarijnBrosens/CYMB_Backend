@@ -1,0 +1,9 @@
+Template: home-image
+
+----
+
+Project: projects/projekt-a
+
+----
+
+Sizing: large

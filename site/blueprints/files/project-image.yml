@@ -1,0 +1,43 @@
+title: Image
+
+accept:
+  mime: image/jpeg, image/png
+
+fields:
+  featured:
+    label: Featured
+    type: toggle
+    text: Für Übersicht nutzen?
+    width: 1/4
+  sizing:
+    label: Größe
+    type: select
+    options:
+      cover: Randabfallend
+      contained: Füllend
+      large: Groß
+      small: Klein
+    default: large
+    required: true
+    width: 1/4
+
+  position:
+    label: Position
+    type: select
+    options:
+      left: Links
+      right: Rechts
+      center: Zentriert
+    default: center
+    required: true
+    width: 1/4
+    
+  combine:
+    label: Kombination
+    type: select
+    options:
+      alone: Alleinstehend
+      combined: Kombiniert
+    default: alone
+    required: true
+    width: 1/4
