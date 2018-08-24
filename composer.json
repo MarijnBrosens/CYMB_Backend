@@ -1,0 +1,15 @@
+{
+  "name": "cymb-backend",
+  "version": "1.0.0",
+  "description": "Kirby powered backend for Conny Mirbach’s portfolio",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/k-next/kirby"
+    }
+  ],
+  "require": {
+    "getkirby/cms": "3.0.*"
+  },
+  "minimum-stability": "beta"
+}
