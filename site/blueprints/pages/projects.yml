@@ -14,17 +14,13 @@ options:
 sections:
   drafts:
     extends: sections/projects
-    headline:
-      en: Project drafts
-      de: Projekt Entwürfe
+    headline: Entwürfe
     layout: list
     status: draft
 
   listed:
     extends: sections/projects
-    # headline:
-    #   en: Published projects
-    #   de: Veröffentlichte Projekte
+    headline: Veröffentlicht
     status: listed
     item:
       image:
