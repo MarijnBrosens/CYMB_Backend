@@ -3,4 +3,6 @@ extends: users/default
 
 permissions:
   pages:
-    delete: false
+    delete: true
+  users:
+    update: false
