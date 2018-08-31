@@ -2,17 +2,17 @@ title: Site
 
 tabs:
   pages:
-    label: Projekte
+    label: Content
     icon: page
     sections:
       projects:
         type: pages
         status: listed
-        item:
-          image: false
-          info: "{{ page.template }}"
+        image: none
 
   settings:
+    label: Einstellungen
+    icon: cog
     columns:
       - width: 2/3
         sections:

@@ -6,13 +6,13 @@ return [
     'debug'  => true,
     'routes' => [
 	    [
-	        'pattern' => 'customapi/(:all)',
+	        'pattern' => 'rest/(:all)',
 	        'method'  => 'GET',
 	        'env'     => 'api',
 	        'action'  => function ($path = null) {
 
-				$kirby = new Kirby([]);
-				$kirby->impersonate('kirby');
+				$kirby = new Kirby();
+				$kirby->impersonate('api@connymirbach.de');
 
 	            if ($kirby->option('api') === false) {
 	                return null;
