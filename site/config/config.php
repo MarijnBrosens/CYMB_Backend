@@ -1,5 +1,32 @@
 <?php
 
+// namespace Kirby\Cms;
+
 return [
-    'debug'  => true
+    'debug'  => true,
+    'routes' => [
+	    [
+	        'pattern' => 'customapi/(:all)',
+	        'method'  => 'GET',
+	        'env'     => 'api',
+	        'action'  => function ($path = null) {
+
+				$kirby = new Kirby([]);
+				$kirby->impersonate('kirby');
+
+	            if ($kirby->option('api') === false) {
+	                return null;
+	            }
+
+	            $request = $kirby->request();
+
+	            return $kirby->api()->render($path, $this->method(), [
+	                'body'    => $request->body()->toArray(),
+	                'files'   => $request->files()->toArray(),
+	                'headers' => $request->headers(),
+	                'query'   => $request->query()->toArray(),
+	            ]);
+	        }
+	    ]
+  	]
 ];

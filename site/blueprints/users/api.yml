@@ -1,0 +1,42 @@
+title: API access 
+extends: users/default
+
+permissions:
+  pages:
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    changeTitle: false
+    create: false
+    delete: false
+    sort: false
+    update: false
+  files:
+    changeName: false
+    create: false
+    delete: false
+    replace: false
+    update: false
+  site:
+    update: false
+    changeTitle: false
+  users:
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    delete: false
+    create: false
+    update: false
+  user:
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    delete: false
+    update: false
+  access:
+    panel: false
+    users: false
