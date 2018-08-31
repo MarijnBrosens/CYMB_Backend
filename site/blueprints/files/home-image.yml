@@ -9,6 +9,7 @@ fields:
       type: select
       options: query
       query: site.page("projects").children
+      width: 1/2
 
   sizing:
     label: Größe
@@ -19,3 +20,4 @@ fields:
       contained: Füllend
       large: Groß
     default: large
+    width: 1/2

@@ -9,7 +9,6 @@ options:
   url: false
 
 sections:
-
   images:
     extends: sections/images
     headline: Slideshow
