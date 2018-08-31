@@ -1,0 +1,13 @@
+Template: home-image
+
+----
+
+Sort: 1
+
+----
+
+Project: projects/stefandiez
+
+----
+
+Sizing: contained
