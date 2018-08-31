@@ -1,0 +1,13 @@
+Template: home-image
+
+----
+
+Sort: 2
+
+----
+
+Project: projects/projekt-b
+
+----
+
+Sizing: cover

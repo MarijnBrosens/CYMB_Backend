@@ -1,0 +1,13 @@
+Template: home-image
+
+----
+
+Sort: 5
+
+----
+
+Project: projects/sarah
+
+----
+
+Sizing: cover

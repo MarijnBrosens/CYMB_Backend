@@ -1,0 +1,13 @@
+Template: home-image
+
+----
+
+Sort: 3
+
+----
+
+Project: projects/projekt-c
+
+----
+
+Sizing: contained
