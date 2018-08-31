@@ -2,11 +2,6 @@ headline: Projects
 type: pages
 layout: cards
 parent: site.find("projects")
-status: listed
-templates: project
 item:
   image:
     src: page.images.first
-    ratio: 1/1
-    cover: true
-  info: "{{ page.client }} ({{ page.year }})"

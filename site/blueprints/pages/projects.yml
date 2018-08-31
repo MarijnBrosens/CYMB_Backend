@@ -20,11 +20,11 @@ sections:
     layout: list
     status: draft
 
-  published:
+  listed:
     extends: sections/projects
-    headline:
-      en: Published projects
-      de: Veröffentlichte Projekte
+    # headline:
+    #   en: Published projects
+    #   de: Veröffentlichte Projekte
     status: listed
     item:
       image:
