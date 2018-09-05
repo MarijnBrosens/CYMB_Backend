@@ -4,11 +4,6 @@ accept:
   mime: image/jpeg, image/png
 
 fields:
-  featured:
-    label: Featured
-    type: toggle
-    text: Für Übersicht nutzen?
-    width: 1/4
   sizing:
     label: Größe
     type: select
@@ -19,7 +14,7 @@ fields:
       small: Klein
     default: large
     required: true
-    width: 1/4
+    width: 1/3
 
   position:
     label: Position
@@ -30,7 +25,7 @@ fields:
       center: Zentriert
     default: center
     required: true
-    width: 1/4
+    width: 1/3
     
   combine:
     label: Kombination
@@ -40,4 +35,4 @@ fields:
       combined: Kombiniert
     default: alone
     required: true
-    width: 1/4
+    width: 1/3

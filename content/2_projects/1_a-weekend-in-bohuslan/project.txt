@@ -1,0 +1,86 @@
+Title: A Weekend in Bohuslän
+
+----
+
+Client: Jaguar Magazine
+
+----
+
+Year: 2017
+
+----
+
+Description: Jaguar Magazine
+
+----
+
+Cover: 
+
+- >
+  projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0248-3.jpg
+- >
+  projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0528-2.jpg
+- >
+  projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0584-3.jpg
+- >
+  projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0606-2.jpg
+- >
+  projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0900-1.jpg
+
+----
+
+Layouts: 
+
+- 
+  image1: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0002-4.jpg
+  image2: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0153-1.jpg
+  sizing: big
+  image3: ""
+  image4: ""
+- 
+  image1: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0162-1.jpg
+  image2: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0227-1.jpg
+  sizing: fullbleed
+  image3: ""
+  image4: ""
+- 
+  image1: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0248-3.jpg
+  image2: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0517-1.jpg
+  image3: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0528-2.jpg
+  image4: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0531-3.jpg
+  sizing: fullbleed
+- 
+  image1: >
+    projects/a-weekend-in-bohuslan/16_10_10_jaguar_schweden-0976-1.jpg
+  sizing: fullbleed
+  image2: ""
+  image3: ""
+  image4: ""
+
+----
+
+Image1: 
+
+----
+
+Image2: 
+
+----
+
+Image3: 
+
+----
+
+Image4: 
+
+----
+
+Sizing: 

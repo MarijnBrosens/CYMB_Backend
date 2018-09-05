@@ -1,0 +1,24 @@
+Title: Sarah
+
+----
+
+Client: 
+
+----
+
+Year: 2018
+
+----
+
+Description: Sarah Teneriffa
+
+----
+
+Cover: 
+
+- >
+  projects/sarah/2015-05-26-11.54.43_0053_web.jpg
+- >
+  projects/sarah/2015-05-26-11.58.49_0079_web.jpg
+- >
+  projects/sarah/2015-05-26-12.32.55_0381_web.jpg

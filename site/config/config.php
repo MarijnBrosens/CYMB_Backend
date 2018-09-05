@@ -1,7 +1,5 @@
 <?php
 
-// namespace Kirby\Cms;
-
 return [
     'debug'  => true,
     'routes' => [

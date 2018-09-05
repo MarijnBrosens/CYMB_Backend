@@ -1,0 +1,26 @@
+Title: Ego Movement
+
+----
+
+Client: Ego Movement
+
+----
+
+Year: 2018
+
+----
+
+Description: Ego Movement
+
+----
+
+Cover: 
+
+- >
+  projects/egomovement/17_09_29_egomovement-0168.jpg
+- >
+  projects/egomovement/17_09_29_egomovement-0281.jpg
+- >
+  projects/egomovement/17_09_29_egomovement-0765.jpg
+- >
+  projects/egomovement/17_09_29_egomovement-0925.jpg

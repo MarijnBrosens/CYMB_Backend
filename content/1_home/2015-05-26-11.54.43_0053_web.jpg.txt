@@ -2,10 +2,6 @@ Template: home-image
 
 ----
 
-Sort: 4
-
-----
-
 Project: projects/sarah
 
 ----
@@ -19,3 +15,7 @@ Color: black
 ----
 
 Background: white
+
+----
+
+Sort: 8

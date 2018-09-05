@@ -13,3 +13,4 @@ sections:
     extends: sections/images
     headline: Slideshow
     template: home-image
+    layout: cards

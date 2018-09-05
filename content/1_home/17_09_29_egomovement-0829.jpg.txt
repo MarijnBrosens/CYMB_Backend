@@ -2,12 +2,20 @@ Template: home-image
 
 ----
 
-Sort: 2
+Sort: 10
 
 ----
 
-Project: projects/projekt-b
+Project: projects/egomovement
 
 ----
 
 Sizing: cover
+
+----
+
+Color: black
+
+----
+
+Background: white
