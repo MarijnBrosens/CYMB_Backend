@@ -2,10 +2,6 @@ Template: home-image
 
 ----
 
-Sort: 12
-
-----
-
 Project: projects/food-and-text
 
 ----
@@ -18,4 +14,8 @@ Color: black
 
 ----
 
-Background: grey
+Background: white
+
+----
+
+Sort: 6

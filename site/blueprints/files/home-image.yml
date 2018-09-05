@@ -9,7 +9,7 @@ fields:
       type: select
       options: query
       query: site.page("projects").children
-      width: 1/2
+      width: 1/4
 
   sizing:
     label: Größe
@@ -20,4 +20,24 @@ fields:
       contained: Füllend
       large: Groß
     default: large
-    width: 1/2
+    width: 1/4
+
+  color:
+    label: Schriftfarbe
+    type: select
+    required: true
+    options:
+      black: Schwarz
+      white: Weiß
+    default: black
+    width: 1/4
+
+  background:
+    label: Hintergrund
+    type: select
+    required: true
+    options:
+      black: Schwarz
+      white: Weiß
+    default: white
+    width: 1/4

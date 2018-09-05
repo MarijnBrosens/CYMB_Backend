@@ -1,0 +1,24 @@
+Title: Stefan Diez
+
+----
+
+Client: Architectural Digest
+
+----
+
+Year: 2016
+
+----
+
+Description: Stefan Diez Architectural Digest
+
+----
+
+Cover: 
+
+- >
+  projects/stefandiez/16_10_31_ad_stefandiez-0101_web.jpg
+- >
+  projects/stefandiez/16_10_31_ad_stefandiez-0104_web.jpg
+- >
+  projects/stefandiez/16_10_31_ad_stefandiez-0162_web.jpg

@@ -1,0 +1,13 @@
+Template: project-image
+
+----
+
+Sizing: contained
+
+----
+
+Position: center
+
+----
+
+Combine: alone

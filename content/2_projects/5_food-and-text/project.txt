@@ -11,3 +11,18 @@ Year: 2018
 ----
 
 Description: Food & Text
+
+----
+
+Cover: 
+
+- >
+  projects/food-and-text/17_12_12_monocle_food-text-0462_web.jpg
+- >
+  projects/food-and-text/17_12_12_monocle_food-text-0581_web.jpg
+- >
+  projects/food-and-text/17_12_12_monocle_food-text-0685_web.jpg
+- >
+  projects/food-and-text/17_12_12_monocle_food-text-0764_web.jpg
+- >
+  projects/food-and-text/17_12_12_monocle_food-text-0814_web.jpg

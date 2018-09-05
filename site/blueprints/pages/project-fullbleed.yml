@@ -1,0 +1,11 @@
+title: Fullbleed
+
+icon: title
+
+fields:
+  image:
+    label: Headline
+    type: image
+    max: 1
+
+

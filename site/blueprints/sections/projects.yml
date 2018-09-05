@@ -1,7 +1,7 @@
 headline: Projects
 type: pages
+template: project
 layout: cards
 parent: site.find("projects")
-item:
-  image:
-    src: page.images.first
+image:
+  src: page.images.first

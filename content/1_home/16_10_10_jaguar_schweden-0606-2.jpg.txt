@@ -2,12 +2,20 @@ Template: home-image
 
 ----
 
-Sort: 3
+Sort: 2
 
 ----
 
-Project: projects/projekt-c
+Project: projects/a-weekend-in-bohuslan
 
 ----
 
 Sizing: contained
+
+----
+
+Color: black
+
+----
+
+Background: white

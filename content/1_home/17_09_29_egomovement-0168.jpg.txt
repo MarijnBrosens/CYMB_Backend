@@ -1,0 +1,21 @@
+Template: home-image
+
+----
+
+Project: projects/egomovement
+
+----
+
+Sizing: large
+
+----
+
+Color: black
+
+----
+
+Background: white
+
+----
+
+Sort: 11
