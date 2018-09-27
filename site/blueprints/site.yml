@@ -16,7 +16,7 @@ tabs:
     columns:
       - width: 2/3
         sections:
-          settingsContent:
+          meta:
             label: Einstellungen
             type: fields
             fields:
@@ -35,7 +35,7 @@ tabs:
 
       - width: 1/3
         sections:
-          settingsDefaults:
+          legal:
             type: fields
             fields:
               copyright:
@@ -45,3 +45,8 @@ tabs:
                 buttons:
                   - link
                 disabled: false
+              legal:
+                label: Legal Notice
+                type: textarea
+                size: small
+                required: true

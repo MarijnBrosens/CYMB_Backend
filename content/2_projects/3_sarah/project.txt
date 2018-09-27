@@ -2,7 +2,7 @@ Title: Sarah
 
 ----
 
-Client: 
+Client: Personal Project
 
 ----
 
