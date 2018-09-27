@@ -9,6 +9,14 @@ options:
   delete: true
   preview: false
 
+status:
+  draft:
+    label: Entwurf
+    text: Die Seite ist im Entwurfsmodus und nur für eingeloggte Editoren sichtbar
+  listed:
+    label: Öffentlich
+    text: Die Seite ist öffentlich für jeden
+
 columns:
   - width: 2/3
     sections:
@@ -18,7 +26,7 @@ columns:
           title:
             label: Titel
             type: text
-            
+
           client:
             label: Kunde
             type: text
@@ -45,43 +53,19 @@ columns:
 
           layouts:
             type: structure
-            headline: Layouts
+            label: Layouts
+            required: true
             fields:
-              image1:
-                headline: Foto 1
-                type: select
+              images:
+                label: Fotos
+                type: files
                 options: query
-                query: page.files
-                width: 1/2
-              image2:
-                headline: Foto 2
-                type: select
-                options: query
-                query: page.files
-                width: 1/2
-              image3:
-                headline: Foto 3
-                type: select
-                options: query
-                query: page.files
-                width: 1/2
-              image4:
-                headline: Foto 4
-                type: select
-                options: query
-                query: page.files
-                width: 1/2
-              sizing:
-                label: Layout
-                type: select
-                options:
-                  fullbleed: Randabfallend
-                  contained: Füllend
-                  big: Groß
+                query: page.images
+                max: 3
 
   - width: 1/3
     sections:
       images:
         extends: sections/images
         headline: Fotos
-        template: project-image
+        template: image

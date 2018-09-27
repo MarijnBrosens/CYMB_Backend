@@ -9,6 +9,15 @@ return [
 	        'env'     => 'api',
 	        'action'  => function ($path = null) {
 
+	        	$origin = $_SERVER['HTTP_ORIGIN'];
+				$allowed_domains = [
+				    'http://localhost:8080'
+				];
+
+				if (in_array($origin, $allowed_domains)) {
+				    header('Access-Control-Allow-Origin: ' . $origin);
+				}
+
 				$kirby = new Kirby();
 				$kirby->impersonate('api@connymirbach.de');
 
