@@ -1,5 +1,6 @@
 name: projects
 title: Projekte
+preset: pages
 
 icon: 📷
 
@@ -11,17 +12,16 @@ options:
   delete: false
   preview: false
 
-sections:
-  drafts:
-    extends: sections/projects
-    headline: Entwürfe
-    layout: list
-    status: draft
+drafts:
+  extends: sections/projects
+  headline: Entwürfe
+  status: draft
 
-  listed:
-    extends: sections/projects
-    headline: Veröffentlicht
-    status: listed
-    item:
-      image:
-        ratio: 3/2
+listed:
+  extends: sections/projects
+  headline: Veröffentlicht
+  status: listed
+  layout: cards
+  item:
+    image:
+      ratio: 3/2

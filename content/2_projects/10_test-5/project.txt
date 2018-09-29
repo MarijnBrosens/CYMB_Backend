@@ -33,6 +33,20 @@ Cover:
 
 Layouts: 
 
+- 
+  images:
+    - 
+      filename: >
+        10887566_1021145617901780_3794434960007307479_o.jpg
+      link: >
+        /pages/projects+test-5/files/10887566_1021145617901780_3794434960007307479_o.jpg
+      id: >
+        projects/test-5/10887566_1021145617901780_3794434960007307479_o.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/test-5/10887566_1021145617901780_3794434960007307479_o.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/test-5/10887566-1021145617901780-3794434960007307479-o-512x362-q90.jpg
+
 ----
 
 Image1: 

@@ -1,0 +1,30 @@
+Title: bla
+
+----
+
+Client: sada
+
+----
+
+Year: 2018
+
+----
+
+Description: adsad
+
+----
+
+Cover: 
+
+----
+
+Layouts: 
+
+- 
+  images: [ ]
+- 
+  images: [ ]
+- 
+  images: [ ]
+- 
+  images: [ ]

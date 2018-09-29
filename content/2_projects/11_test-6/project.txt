@@ -1,0 +1,61 @@
+Title: Test 6
+
+----
+
+Client: 
+
+----
+
+Year: 2018
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+- >
+  projects/test-6/17_12_12_monocle_food-text-0462_web.jpg
+- >
+  projects/test-6/17_12_12_monocle_food-text-0537_web.jpg
+- >
+  projects/test-6/17_12_12_monocle_food-text-0581_web.jpg
+
+----
+
+Layouts: 
+
+- 
+  images:
+    - 
+      filename: 17_12_12_monocle_food-text-0665_web.jpg
+      link: >
+        /pages/projects+test-6/files/17_12_12_monocle_food-text-0665_web.jpg
+      id: >
+        projects/test-6/17_12_12_monocle_food-text-0665_web.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/test-6/17_12_12_monocle_food-text-0665_web.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/test-6/17-12-12-monocle-food-text-0665-web-512x683-q90.jpg
+    - 
+      filename: 17_12_12_monocle_food-text-0685_web.jpg
+      link: >
+        /pages/projects+test-6/files/17_12_12_monocle_food-text-0685_web.jpg
+      id: >
+        projects/test-6/17_12_12_monocle_food-text-0685_web.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/test-6/17_12_12_monocle_food-text-0685_web.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/test-6/17-12-12-monocle-food-text-0685-web-512x683-q90.jpg
+    - 
+      filename: 17_12_12_monocle_food-text-0764_web.jpg
+      link: >
+        /pages/projects+test-6/files/17_12_12_monocle_food-text-0764_web.jpg
+      id: >
+        projects/test-6/17_12_12_monocle_food-text-0764_web.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/test-6/17_12_12_monocle_food-text-0764_web.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/test-6/17-12-12-monocle-food-text-0764-web-512x384-q90.jpg

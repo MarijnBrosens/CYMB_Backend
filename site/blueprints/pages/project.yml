@@ -1,5 +1,6 @@
 name: project
 title: Projekt
+preset: page
 
 options:
   changeSlug: true
@@ -9,63 +10,57 @@ options:
   delete: true
   preview: false
 
+# status:
+  # draft:
+  #   label: Entwurf
+  #   text: Die Seite ist im Entwurfsmodus und nur für eingeloggte Editoren sichtbar
+  # listed:
+  #   label: Öffentlich
+  #   text: Die Seite ist öffentlich für jeden
 status:
-  draft:
-    label: Entwurf
-    text: Die Seite ist im Entwurfsmodus und nur für eingeloggte Editoren sichtbar
-  listed:
-    label: Öffentlich
-    text: Die Seite ist öffentlich für jeden
+  draft: Entwurf
+  listed: Veröffentlicht
 
-columns:
-  - width: 2/3
-    sections:
-      content:
-        type: fields
-        fields:
-          title:
-            label: Titel
-            type: text
+fields:
+  title:
+    label: Titel
+    type: text
 
-          client:
-            label: Kunde
-            type: text
-            width: 1/2
+  client:
+    label: Kunde
+    type: text
+    width: 1/2
 
-          year:
-            label: Jahr
-            type: number
-            min: 2000
-            default: 2018
-            required: true
-            width: 1/2
+  year:
+    label: Jahr
+    type: number
+    min: 2000
+    default: 2018
+    required: true
+    width: 1/2
 
-          description:
-            label: Beschreibung
-            type: textarea
-            size: small
+  description:
+    label: Beschreibung
+    type: textarea
+    size: small
 
-          cover:
-            label: Übersicht
-            type: files
-            query: page.images
-            required: true
+  cover:
+    label: Übersicht
+    type: files
+    query: page.images
 
-          layouts:
-            type: structure
-            label: Layouts
-            required: true
-            fields:
-              images:
-                label: Fotos
-                type: files
-                options: query
-                query: page.images
-                max: 3
-
-  - width: 1/3
-    sections:
+  layouts:
+    type: structure
+    label: Layouts
+    required: true
+    fields:
       images:
-        extends: sections/images
-        headline: Fotos
-        template: image
+        label: Fotos
+        type: files
+        query: page.images
+        max: 3
+
+sidebar:
+  images:
+    extends: sections/images
+    headline: Fotos
