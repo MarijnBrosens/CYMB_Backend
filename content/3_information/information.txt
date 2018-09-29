@@ -98,3 +98,11 @@ Clients:
   client: SZ Magazin
 - 
   client: X Games
+
+----
+
+Legal: All images and texts are copyrighted and owned by Studio Johannes Bissinger or their respective owners. Johannes Bissinger is not responsible for the content of any linked external website.
+
+----
+
+Images: 
