@@ -5,3 +5,6 @@ composer.lock
 
 *.sublime-project
 *.sublime-workspace
+
+/content
+/media

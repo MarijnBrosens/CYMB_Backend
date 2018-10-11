@@ -1,0 +1,208 @@
+Title: Portraits
+
+----
+
+Client: Lotto
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+- >
+  projects/lotto/18_01_17_lotto_fred_irina_felix_1574.jpg
+- >
+  projects/lotto/18_06_05_lotto_peteralbert_0146.jpg
+- >
+  projects/lotto/18_07_16_lotto_strixner_0060-1.jpg
+- >
+  projects/lotto/18_07_25_lotto_diamantenschleiferei_0123-1.jpg
+
+----
+
+Layouts: 
+
+- 
+  images:
+    - 
+      filename: t3a4887.jpg
+      link: /pages/projects+lotto/files/t3a4887.jpg
+      id: projects/lotto/t3a4887.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/t3a4887.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/t3a4887-512x683-q90.jpg
+    - 
+      filename: t3a4989-2.jpg
+      link: >
+        /pages/projects+lotto/files/t3a4989-2.jpg
+      id: projects/lotto/t3a4989-2.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/t3a4989-2.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/t3a4989-2-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_08_01_lotto_koch_0054-2.jpg
+      link: >
+        /pages/projects+lotto/files/18_08_01_lotto_koch_0054-2.jpg
+      id: >
+        projects/lotto/18_08_01_lotto_koch_0054-2.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_08_01_lotto_koch_0054-2.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-08-01-lotto-koch-0054-2-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: >
+        18_07_25_lotto_diamantenschleiferei_0123-1.jpg
+      link: >
+        /pages/projects+lotto/files/18_07_25_lotto_diamantenschleiferei_0123-1.jpg
+      id: >
+        projects/lotto/18_07_25_lotto_diamantenschleiferei_0123-1.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_07_25_lotto_diamantenschleiferei_0123-1.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-07-25-lotto-diamantenschleiferei-0123-1-512x683-q90.jpg
+    - 
+      filename: >
+        18_07_25_lotto_diamantenschleiferei_0133.jpg
+      link: >
+        /pages/projects+lotto/files/18_07_25_lotto_diamantenschleiferei_0133.jpg
+      id: >
+        projects/lotto/18_07_25_lotto_diamantenschleiferei_0133.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_07_25_lotto_diamantenschleiferei_0133.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-07-25-lotto-diamantenschleiferei-0133-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_07_16_lotto_strixner_0016.jpg
+      link: >
+        /pages/projects+lotto/files/18_07_16_lotto_strixner_0016.jpg
+      id: >
+        projects/lotto/18_07_16_lotto_strixner_0016.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_07_16_lotto_strixner_0016.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-07-16-lotto-strixner-0016-512x683-q90.jpg
+    - 
+      filename: 18_07_16_lotto_strixner_0060-1.jpg
+      link: >
+        /pages/projects+lotto/files/18_07_16_lotto_strixner_0060-1.jpg
+      id: >
+        projects/lotto/18_07_16_lotto_strixner_0060-1.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_07_16_lotto_strixner_0060-1.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-07-16-lotto-strixner-0060-1-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_06_05_lotto_peteralbert_0034-2.jpg
+      link: >
+        /pages/projects+lotto/files/18_06_05_lotto_peteralbert_0034-2.jpg
+      id: >
+        projects/lotto/18_06_05_lotto_peteralbert_0034-2.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_06_05_lotto_peteralbert_0034-2.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-06-05-lotto-peteralbert-0034-2-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_06_05_lotto_peteralbert_0146.jpg
+      link: >
+        /pages/projects+lotto/files/18_06_05_lotto_peteralbert_0146.jpg
+      id: >
+        projects/lotto/18_06_05_lotto_peteralbert_0146.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_06_05_lotto_peteralbert_0146.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-06-05-lotto-peteralbert-0146-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_03_13_lotto_alfredrippl_0230-2.jpg
+      link: >
+        /pages/projects+lotto/files/18_03_13_lotto_alfredrippl_0230-2.jpg
+      id: >
+        projects/lotto/18_03_13_lotto_alfredrippl_0230-2.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_03_13_lotto_alfredrippl_0230-2.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-03-13-lotto-alfredrippl-0230-2-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_02_08_lotto_bennohuber_0047.jpg
+      link: >
+        /pages/projects+lotto/files/18_02_08_lotto_bennohuber_0047.jpg
+      id: >
+        projects/lotto/18_02_08_lotto_bennohuber_0047.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_02_08_lotto_bennohuber_0047.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-02-08-lotto-bennohuber-0047-512x683-q90.jpg
+    - 
+      filename: 18_02_08_lotto_bennohuber_0085.jpg
+      link: >
+        /pages/projects+lotto/files/18_02_08_lotto_bennohuber_0085.jpg
+      id: >
+        projects/lotto/18_02_08_lotto_bennohuber_0085.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_02_08_lotto_bennohuber_0085.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-02-08-lotto-bennohuber-0085-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_03_20_lotto_vipham_0078.jpg
+      link: >
+        /pages/projects+lotto/files/18_03_20_lotto_vipham_0078.jpg
+      id: >
+        projects/lotto/18_03_20_lotto_vipham_0078.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_03_20_lotto_vipham_0078.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-03-20-lotto-vipham-0078-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_03_09_lotto_maximilianglas_0066.jpg
+      link: >
+        /pages/projects+lotto/files/18_03_09_lotto_maximilianglas_0066.jpg
+      id: >
+        projects/lotto/18_03_09_lotto_maximilianglas_0066.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_03_09_lotto_maximilianglas_0066.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-03-09-lotto-maximilianglas-0066-512x683-q90.jpg
+- 
+  images:
+    - 
+      filename: 18_01_17_lotto_fred_irina_felix_1574.jpg
+      link: >
+        /pages/projects+lotto/files/18_01_17_lotto_fred_irina_felix_1574.jpg
+      id: >
+        projects/lotto/18_01_17_lotto_fred_irina_felix_1574.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_01_17_lotto_fred_irina_felix_1574.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-01-17-lotto-fred-irina-felix-1574-512x683-q90.jpg
+    - 
+      filename: 18_01_17_lotto_fred_irina_felix_2020.jpg
+      link: >
+        /pages/projects+lotto/files/18_01_17_lotto_fred_irina_felix_2020.jpg
+      id: >
+        projects/lotto/18_01_17_lotto_fred_irina_felix_2020.jpg
+      url: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18_01_17_lotto_fred_irina_felix_2020.jpg
+      thumb: >
+        http://127.0.0.1:8888/media/pages/projects/lotto/18-01-17-lotto-fred-irina-felix-2020-512x683-q90.jpg
