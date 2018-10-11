@@ -9,6 +9,8 @@ tabs:
         type: pages
         status: listed
         image: none
+        layout: cards
+        headline: Inhalte
 
   settings:
     label: Einstellungen
