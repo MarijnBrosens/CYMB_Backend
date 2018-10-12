@@ -29,7 +29,7 @@ return [
 
 	            return $kirby->api()->render($path, $this->method(), [
 	                'body'    => $request->body()->toArray(),
-	                // 'files'   => $request->files()->toArray(),
+	                'files'   => $request->files()->toArray(),
 	                'headers' => $request->headers(),
 	                'query'   => $request->query()->toArray(),
 				]);
