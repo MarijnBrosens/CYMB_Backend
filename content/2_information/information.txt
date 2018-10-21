@@ -2,7 +2,7 @@ Title: Informationen
 
 ----
 
-About: Constantin Mirbach is a German photographer, based in Munich, but rarely at home.
+About: Constantin Mirbach is a German photographer, based in Munich.
 
 ----
 
@@ -34,11 +34,7 @@ Ustid: DE287351685
 
 ----
 
-Taxno: 145/212/91487
-
-----
-
-Instagram: connymirbach
+Instagram: https://www.instagram.com/connymirbach/
 
 ----
 
