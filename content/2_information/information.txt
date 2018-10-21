@@ -2,6 +2,10 @@ Title: Informationen
 
 ----
 
+About: Constantin Mirbach is a German photographer, based in Munich.
+
+----
+
 Street: Enzenspergerstr. 7
 
 ----
@@ -22,11 +26,15 @@ Phone: +49 160 666 59 57
 
 ----
 
-Email: mail@connymirbach.de
+Email: mail@constantinmirbach.com
 
 ----
 
 Ustid: DE287351685
+
+----
+
+Instagram: https://www.instagram.com/connymirbach/
 
 ----
 
@@ -102,11 +110,3 @@ Clients:
 ----
 
 Legal: All images and texts are copyrighted and owned by Studio Johannes Bissinger or their respective owners. Johannes Bissinger is not responsible for the content of any linked external website.
-
-----
-
-About: Constantin Mirbach is a German photographer, based in Munich.
-
-----
-
-Instagram: https://www.instagram.com/connymirbach/
