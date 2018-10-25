@@ -10,13 +10,6 @@ options:
   delete: true
   preview: false
 
-# status:
-  # draft:
-  #   label: Entwurf
-  #   text: Die Seite ist im Entwurfsmodus und nur für eingeloggte Editoren sichtbar
-  # listed:
-  #   label: Öffentlich
-  #   text: Die Seite ist öffentlich für jeden
 status:
   draft: Entwurf
   listed: Veröffentlicht
@@ -29,15 +22,6 @@ fields:
   client:
     label: Kunde
     type: text
-    width: 1/2
-
-  year:
-    label: Jahr
-    type: number
-    min: 2000
-    default: 2018
-    required: true
-    width: 1/2
 
   description:
     label: Beschreibung

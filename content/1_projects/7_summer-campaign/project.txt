@@ -1,0 +1,33 @@
+Title: Summer Campaign
+
+----
+
+Client: Ego Movement
+
+----
+
+Year: 2018
+
+----
+
+Description: Ego Movement
+
+----
+
+Cover: 
+
+- >
+  projects/summer-campaign/17_09_29_egomovement-0028.jpg
+- >
+  projects/summer-campaign/17_09_29_egomovement-0508.jpg
+- >
+  projects/summer-campaign/17_09_29_egomovement-0925.jpg
+- >
+  projects/summer-campaign/17_09_29_egomovement-1061.jpg
+
+----
+
+Layouts: 
+
+- 
+  images: [ ]
