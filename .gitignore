@@ -3,4 +3,4 @@
 /media
 /site/accounts
 /site/cache
-/storage/sessions
+/storage/sessions/*.sess
