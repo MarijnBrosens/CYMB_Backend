@@ -8,8 +8,10 @@ return [
             'method'  => 'GET',
             'env'     => 'api',
             'action'  => function ($path = null) {
+
+
                 $kirby = new Kirby();
-                $kirby->impersonate('api@constantinmirbach.com');
+                $kirby->impersonate('kirby');
 
                 if ($kirby->option('api') === false) {
                     return null;
