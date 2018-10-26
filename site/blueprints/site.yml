@@ -9,7 +9,7 @@ tabs:
         type: pages
         status: listed
         image: none
-        layout: cards
+        layout: list
         headline: Inhalte
 
   settings:
