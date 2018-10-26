@@ -1,6 +1,6 @@
 .DS_Store
 
-/media
+/public/media
 /site/accounts
-/site/cache
+/storage/cache
 /storage/sessions/*.sess
