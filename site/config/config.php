@@ -8,8 +8,6 @@ return [
             'method'  => 'GET',
             'env'     => 'api',
             'action'  => function ($path = null) {
-
-
                 $kirby = new Kirby();
                 $kirby->impersonate('kirby');
 
@@ -17,19 +15,19 @@ return [
                     return null;
                 }
 
-                $origin = $_SERVER['HTTP_ORIGIN'];
-                $allowed_domains = [
-                    'http://localhost:8080',
-                    'https://constantinmirbach.com',
-                    'https://www.constantinmirbach.com'
-                ];
+                // $origin = $_SERVER['HTTP_ORIGIN'];
+                // $allowed_domains = [
+                //     'http://localhost:8080',
+                //     'https://constantinmirbach.com',
+                //     'https://www.constantinmirbach.com'
+                // ];
 
                 $request = $kirby->request();
                 $headers = $request->headers();
 
-                if (in_array($origin, $allowed_domains)) {
-                    $headers['Access-Control-Allow-Origin'] = $origin;
-                }
+                // if (in_array($origin, $allowed_domains)) {
+                //     $headers['Access-Control-Allow-Origin'] = $origin;
+                // }
 
                 $render = $kirby->api()->render($path, $this->method(), [
                     'body'    => $request->body()->toArray(),
