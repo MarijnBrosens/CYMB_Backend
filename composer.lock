@@ -208,12 +208,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/k-next/kirby.git",
-                "reference": "bfdd38e58ce1578adee1750d6fed6b8c83256198"
+                "reference": "feadd58c99e057b2b91990687abfb426f8d8af5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k-next/kirby/zipball/bfdd38e58ce1578adee1750d6fed6b8c83256198",
-                "reference": "bfdd38e58ce1578adee1750d6fed6b8c83256198",
+                "url": "https://api.github.com/repos/k-next/kirby/zipball/feadd58c99e057b2b91990687abfb426f8d8af5c",
+                "reference": "feadd58c99e057b2b91990687abfb426f8d8af5c",
                 "shasum": ""
             },
             "archive": {
@@ -309,7 +309,7 @@
                 "forum": "https://forum.getkirby.com",
                 "source": "https://github.com/getkirby/kirby"
             },
-            "time": "2018-10-25T11:31:57+00:00"
+            "time": "2018-10-26T16:29:02+00:00"
         },
         {
             "name": "league/color-extractor",
