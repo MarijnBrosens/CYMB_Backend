@@ -4,3 +4,4 @@
 /site/accounts
 /storage/cache
 /storage/sessions/*.sess
+/vendor/getkirby/cms
