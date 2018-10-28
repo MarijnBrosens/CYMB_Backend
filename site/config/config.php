@@ -1,5 +1,9 @@
 <?php
 
+// namespace Kirby\Http;
+
+// use App;
+
 return [
     'debug'  => true,
     'routes' => [
@@ -7,7 +11,7 @@ return [
             'pattern' => 'rest/(:all)',
             'method'  => 'GET',
             'env'     => 'api',
-            'action'  => function ($path = null) {
+            'action'  => function ($path = null) use ($kirby) {
                 $kirby = new Kirby();
                 $kirby->impersonate('kirby');
 
@@ -24,9 +28,13 @@ return [
 
                 $request = $kirby->request();
                 $headers = $request->headers();
+                $csrf = csrf();
+                $headers['X-CSRF'] = $csrf;
 
                 // if (in_array($origin, $allowed_domains)) {
-                //     $headers['Access-Control-Allow-Origin'] = $origin;
+                // $csrf = csrf();
+                // $headers['X-CSRF'] = $csrf;
+                // $headers['Access-Control-Allow-Origin'] = $origin;
                 // }
 
                 $render = $kirby->api()->render($path, $this->method(), [
@@ -35,6 +43,8 @@ return [
                     'headers' => $headers,
                     'query'   => $request->query()->toArray(),
                 ]);
+
+                return $render;
 
                 $decoded = json_decode($render, true);
 
@@ -53,7 +63,7 @@ return [
                 $decoded = kt($decoded);
                 $encoded = json_encode($decoded);
 
-                return $decoded;
+                return $encoded;
             }
         ]
     ]

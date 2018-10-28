@@ -3,5 +3,6 @@
 /public/media
 /site/accounts
 /storage/cache
-/storage/sessions/*.sess
+/storage/sessions/*
 /vendor/getkirby/cms
+/vendor/getkirby/site/sessions/*
