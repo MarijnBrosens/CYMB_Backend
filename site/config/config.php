@@ -5,15 +5,31 @@
 // use App;
 
 return [
-    'debug'  => true,
+    'debug' => true,
+    'api' => [
+        'basicAuth' => true
+    ],
     'routes' => [
         [
             'pattern' => 'rest/(:all)',
             'method'  => 'GET',
             'env'     => 'api',
-            'action'  => function ($path = null) use ($kirby) {
-                $kirby = new Kirby();
-                $kirby->impersonate('kirby');
+            'action'  => function ($path = null) {
+                $kirby = new Kirby([
+                    'roots' => [
+                        'index'    => dirname(dirname(__DIR__)) . '/public',
+                        'base'     => $base    = dirname(dirname(__DIR__)),
+                        'content'  => $base . '/content',
+                        // 'site'     => $base . '/site',
+                        'storage'  => $storage = $base . '/storage',
+                        'accounts' => $storage . '/accounts',
+                        'cache'    => $storage . '/cache',
+                        'sessions' => $storage . '/sessions',
+                    ]
+                ]);
+                // $kirby->impersonate('kirby');
+
+                print_r($kirby);
 
                 if ($kirby->option('api') === false) {
                     return null;
@@ -44,26 +60,25 @@ return [
                     'query'   => $request->query()->toArray(),
                 ]);
 
-                return $render;
-
                 $decoded = json_decode($render, true);
 
-                function kt($array)
-                {
-                    foreach ($array as $key => $value) {
-                        if (is_array($value)) {
-                            $array[$key] = kt($value);
-                        } else {
-                            $array[$key] = kirbytags($value);
-                        }
-                    }
-                    return $array;
-                }
+                // return $decoded;
 
-                $decoded = kt($decoded);
-                $encoded = json_encode($decoded);
+                // function kt($array) {
+                //     foreach ($array as $key => $value) {
+                //         if (is_array($value)) {
+                //             $array[$key] = kt($value);
+                //         } else {
+                //             $array[$key] = kirbytags($value);
+                //         }
+                //     }
+                //     return $array;
+                // }
 
-                return $encoded;
+                // $decoded = kt($decoded);
+                // $encoded = json_encode($decoded, true);
+
+                // return $encoded;
             }
         ]
     ]
