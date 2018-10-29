@@ -1,14 +1,6 @@
 <?php
-
-// namespace Kirby\Http;
-
-// use App;
-
 return [
-    'debug' => true,
-    'api' => [
-        'basicAuth' => true
-    ],
+    'debug' => false,
     'routes' => [
         [
             'pattern' => 'rest/(:all)',
@@ -20,38 +12,23 @@ return [
                         'index'    => dirname(dirname(__DIR__)) . '/public',
                         'base'     => $base    = dirname(dirname(__DIR__)),
                         'content'  => $base . '/content',
-                        // 'site'     => $base . '/site',
+                        'site'     => dirname(dirname(__DIR__)) . '/site',
                         'storage'  => $storage = $base . '/storage',
                         'accounts' => $storage . '/accounts',
                         'cache'    => $storage . '/cache',
                         'sessions' => $storage . '/sessions',
                     ]
                 ]);
-                // $kirby->impersonate('kirby');
-
-                print_r($kirby);
+                $kirby->impersonate('kirby');
 
                 if ($kirby->option('api') === false) {
                     return null;
                 }
 
-                // $origin = $_SERVER['HTTP_ORIGIN'];
-                // $allowed_domains = [
-                //     'http://localhost:8080',
-                //     'https://constantinmirbach.com',
-                //     'https://www.constantinmirbach.com'
-                // ];
-
                 $request = $kirby->request();
                 $headers = $request->headers();
                 $csrf = csrf();
                 $headers['X-CSRF'] = $csrf;
-
-                // if (in_array($origin, $allowed_domains)) {
-                // $csrf = csrf();
-                // $headers['X-CSRF'] = $csrf;
-                // $headers['Access-Control-Allow-Origin'] = $origin;
-                // }
 
                 $render = $kirby->api()->render($path, $this->method(), [
                     'body'    => $request->body()->toArray(),
@@ -62,23 +39,21 @@ return [
 
                 $decoded = json_decode($render, true);
 
-                // return $decoded;
+                function kt($array) {
+                    foreach ($array as $key => $value) {
+                        if (is_array($value)) {
+                            $array[$key] = kt($value);
+                        } else {
+                            $array[$key] = kirbytags($value);
+                        }
+                    }
+                    return $array;
+                }
 
-                // function kt($array) {
-                //     foreach ($array as $key => $value) {
-                //         if (is_array($value)) {
-                //             $array[$key] = kt($value);
-                //         } else {
-                //             $array[$key] = kirbytags($value);
-                //         }
-                //     }
-                //     return $array;
-                // }
+                $decoded = kt($decoded);
+                $encoded = json_encode($decoded, true);
 
-                // $decoded = kt($decoded);
-                // $encoded = json_encode($decoded, true);
-
-                // return $encoded;
+                return $encoded;
             }
         ]
     ]
