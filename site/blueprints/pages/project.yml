@@ -41,6 +41,8 @@ fields:
       images:
         label: Fotos
         type: files
+        layout: cards
+        size: small
         query: page.images
         max: 3
 

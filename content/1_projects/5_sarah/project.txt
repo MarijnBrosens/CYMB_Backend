@@ -1,0 +1,29 @@
+Title: Sarah
+
+----
+
+Client: Personal Project
+
+----
+
+Description: Sarah Teneriffa
+
+----
+
+Cover: 
+
+- 2015-05-26-11.54.43_0053_web.jpg
+- 2015-05-26-11.54.43_0054_web.jpg
+- 2015-05-26-11.58.49_0079_web.jpg
+
+----
+
+Layouts: 
+
+- 
+  images:
+    - 2015-05-26-12.14.52_0231_web.jpg
+
+----
+
+Year: 2018

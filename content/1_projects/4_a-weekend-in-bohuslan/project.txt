@@ -1,0 +1,59 @@
+Title: A Weekend in Bohuslän
+
+----
+
+Client: Jaguar Magazine
+
+----
+
+Description: A short trip to northern Sweden featuring small boats, big cars, hidden huts, good food and great people.
+
+----
+
+Cover: 
+
+- 16_10_10_jaguar_schweden-0584-3.jpg
+- 16_10_10_jaguar_schweden-0606-2.jpg
+- 16_10_10_jaguar_schweden-0624-2.jpg
+- 16_10_10_jaguar_schweden-0726-3.jpg
+
+----
+
+Layouts: 
+
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0227-1.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0908-1.jpg
+    - 16_10_10_jaguar_schweden-0951-2.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0834-3.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0528-2.jpg
+    - 16_10_10_jaguar_schweden-0531-3.jpg
+    - 16_10_10_jaguar_schweden-0584-3.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0976-1.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0002-4.jpg
+    - 16_10_10_jaguar_schweden-0153-1.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0624-2.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0907-2.jpg
+- 
+  images:
+    - 16_10_10_jaguar_schweden-0517-1.jpg
+    - 16_10_10_jaguar_schweden-1014-2.jpg
+
+----
+
+Year: 2017
