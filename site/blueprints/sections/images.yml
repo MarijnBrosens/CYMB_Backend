@@ -1,2 +1,8 @@
 type: files
 headline: Fotos
+
+# accept:
+#   mime: image/jpeg, image/png
+#   maxsize: 100000
+#   maxwidth: 2500
+#   maxheight: 2500
