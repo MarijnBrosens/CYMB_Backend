@@ -1,0 +1,20 @@
+Title: test
+
+----
+
+Client: bla
+
+----
+
+Description: bla
+
+----
+
+Cover: 
+
+----
+
+Layouts: 
+
+- 
+  images: [ ]

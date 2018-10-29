@@ -1,10 +1,4 @@
 name: default
 title: Default
 
-fields:
-  intro:
-    label: Intro
-    type: textarea
-  text:
-    label: Text
-    type: textarea
+
