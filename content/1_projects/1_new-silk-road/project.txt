@@ -1,0 +1,106 @@
+Title: New Silk Road
+
+----
+
+Client: China Tours
+
+----
+
+Description: Three weeks in Nepal, accompanying a classic car rally.
+
+----
+
+Cover: 
+
+- 18_09_13_chinatours_0051.jpg
+- 18_09_13_chinatours_0062.jpg
+- 18_09_13_chinatours_0078.jpg
+
+----
+
+Layouts: 
+
+- 
+  images:
+    - 18_09_13_chinatours_0023.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0014.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0034.jpg
+    - 18_09_13_chinatours_0023.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0038.jpg
+    - 18_09_13_chinatours_0049.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0051.jpg
+    - 18_09_13_chinatours_0062.jpg
+    - 18_09_13_chinatours_0078.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0079.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0082.jpg
+    - 18_09_13_chinatours_0085-1.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0100.jpg
+    - 18_09_13_chinatours_0109.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0210.jpg
+    - 18_09_13_chinatours_0230.jpg
+    - 18_09_13_chinatours_0241.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0244.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0257.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0265.jpg
+    - 18_09_13_chinatours_0269.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0340.jpg
+    - 18_09_13_chinatours_0368.jpg
+    - 18_09_13_chinatours_0357.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0733.jpg
+    - 18_09_13_chinatours_0755.jpg
+    - 18_09_13_chinatours_0797.jpg
+- 
+  images:
+    - 18_09_13_chinatours_2368.jpg
+    - 18_09_13_chinatours_2723.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0395.jpg
+    - 18_09_13_chinatours_0695.jpg
+- 
+  images:
+    - 18_09_13_chinatours_3593.jpg
+    - 18_09_13_chinatours_3714.jpg
+    - 18_09_13_chinatours_3729.jpg
+- 
+  images:
+    - 18_09_13_chinatours_3668.jpg
+- 
+  images:
+    - 18_09_13_chinatours_0740.jpg
+    - 18_09_13_chinatours_1152.jpg
+- 
+  images:
+    - 18_09_13_chinatours_3755.jpg
+    - 18_09_13_chinatours_3756.jpg
+    - 18_09_13_chinatours_3759.jpg
+
+----
+
+Year: 2018
