@@ -2,7 +2,7 @@ Title: Constantin Mirbach
 
 ----
 
-Copyright: Website by (link: http://studioscholz.info text: Studio Scholz)
+Copyright: Website by (link: http://studioscholz.info text: Studio Scholz target: blank)
 
 ----
 
