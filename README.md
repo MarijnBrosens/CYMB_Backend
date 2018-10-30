@@ -1,9 +1,8 @@
-# Kirby Dev Kit
+# Conny Mirbach Backend
 
 ## Installation
 
 ```
-git clone https://github.com/k-next/devkit.git
 composer install --no-dev
 ```
 
