@@ -6,24 +6,16 @@ Client: Architectural Digest
 
 ----
 
-Year: 2016
-
-----
-
 Description: A visit to industrial designer Stefan Diez’ Munich studio.
 
 ----
 
 Cover: 
 
-- >
-  projects/stefan-diez/16_10_31_ad_stefandiez-0007_web.jpg
-- >
-  projects/stefan-diez/16_10_31_ad_stefandiez-0016_web.jpg
-- >
-  projects/stefan-diez/16_10_31_ad_stefandiez-0047_web.jpg
-- >
-  projects/stefan-diez/16_10_31_ad_stefandiez-0052_web.jpg
+- 16_10_31_ad_stefandiez-0085_web.jpg
+- 16_10_31_ad_stefandiez-0101_web.jpg
+- 16_10_31_ad_stefandiez-0104_web.jpg
+- 16_10_31_ad_stefandiez-0162_web.jpg
 
 ----
 
@@ -31,157 +23,35 @@ Layouts:
 
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0007_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0007_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0007_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0007_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0007-web-512x683-q90.jpg
+    - 16_10_31_ad_stefandiez-0007_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0016_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0016_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0016_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0016_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0016-web-512x683-q90.jpg
-    - 
-      filename: 16_10_31_ad_stefandiez-0034_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0034_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0034_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0034_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0034-web-512x683-q90.jpg
-    - 
-      filename: 16_10_31_ad_stefandiez-0047_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0047_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0047_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0047_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0047-web-512x384-q90.jpg
+    - 16_10_31_ad_stefandiez-0016_web.jpg
+    - 16_10_31_ad_stefandiez-0034_web.jpg
+    - 16_10_31_ad_stefandiez-0047_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0052_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0052_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0052_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0052_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0052-web-512x384-q90.jpg
+    - 16_10_31_ad_stefandiez-0052_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0055_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0055_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0055_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0055_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0055-web-512x683-q90.jpg
-    - 
-      filename: 16_10_31_ad_stefandiez-0101_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0101_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0101_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0101_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0101-web-512x683-q90.jpg
+    - 16_10_31_ad_stefandiez-0055_web.jpg
+    - 16_10_31_ad_stefandiez-0101_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0104_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0104_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0104_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0104_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0104-web-512x683-q90.jpg
-    - 
-      filename: 16_10_31_ad_stefandiez-0293_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0293_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0293_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0293_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0293-web-512x683-q90.jpg
+    - 16_10_31_ad_stefandiez-0104_web.jpg
+    - 16_10_31_ad_stefandiez-0293_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0085_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0085_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0085_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0085_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0085-web-512x683-q90.jpg
-    - 
-      filename: 16_10_31_ad_stefandiez-0186_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0186_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0186_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0186_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0186-web-512x683-q90.jpg
+    - 16_10_31_ad_stefandiez-0085_web.jpg
+    - 16_10_31_ad_stefandiez-0186_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0474_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0474_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0474_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0474_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0474-web-512x683-q90.jpg
+    - 16_10_31_ad_stefandiez-0474_web.jpg
 - 
   images:
-    - 
-      filename: 16_10_31_ad_stefandiez-0162_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0162_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0162_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0162_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0162-web-512x683-q90.jpg
-    - 
-      filename: 16_10_31_ad_stefandiez-0165_web.jpg
-      link: >
-        /pages/projects+stefan-diez/files/16_10_31_ad_stefandiez-0165_web.jpg
-      id: >
-        projects/stefan-diez/16_10_31_ad_stefandiez-0165_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16_10_31_ad_stefandiez-0165_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/stefan-diez/16-10-31-ad-stefandiez-0165-web-512x683-q90.jpg
+    - 16_10_31_ad_stefandiez-0162_web.jpg
+    - 16_10_31_ad_stefandiez-0165_web.jpg
+
+----
+
+Year: 2016

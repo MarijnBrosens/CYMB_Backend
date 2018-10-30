@@ -1,0 +1,17 @@
+{
+  "name": "getkirby/cymb-backend",
+  "description": "Kirby powered backend for Conny Mirbach’s Website",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/k-next/kirby"
+    }
+  ],
+  "require": {
+    "getkirby/cms": "dev-master as 3.0.0"
+  },
+  "scripts": {
+    "build": "composer update; composer dumpautoload -o;"
+  },
+  "minimum-stability": "beta"
+}

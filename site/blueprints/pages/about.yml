@@ -1,0 +1,99 @@
+name: information
+title: Informationen
+
+icon: 🗂
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: false
+  delete: false
+  preview: false
+
+columns:
+  - width: 2/3
+    sections:
+      images:
+        extends: sections/images
+        headline: Foto
+        template: image
+        max: 1
+
+      information:
+        type: fields
+        fields:
+          title:
+            label: Titel
+            type:  text
+            disabled: true
+
+          about:
+            label: Beschreibung
+            type: text
+            size: small
+
+          street:
+            label: Straße & Hausnummer
+            type: text
+            width: 1/2
+            required: true
+
+          postcode:
+            label: Postleitzahl
+            type: number
+            width: 1/2
+            required: true
+
+          city:
+            label: Stadt
+            type: text
+            width: 1/2
+            required: true
+
+          country:
+            label: Land
+            type: text
+            width: 1/2
+            required: true
+
+          phone:
+            label: Telefon
+            type: tel
+            width: 1/2
+            required: true
+
+          email:
+            label: e-Mail
+            type: email
+            width: 1/2
+            required: true
+
+          ustid:
+            label: Umsatzsteuer-ID
+            type: text
+            width: 1/3
+            required: true
+
+          taxno:
+            label: Steuernummer
+            width: 1/3
+            type: text
+            required: true
+
+          instagram:
+            label: Instagram
+            type: text
+            width: 1/3
+            help: Username
+
+  - width: 1/3
+    fields:
+      clients:
+        label: Kunden
+        type: structure
+        style: table
+        fields:
+          client:
+            label: Kunde
+            type: text

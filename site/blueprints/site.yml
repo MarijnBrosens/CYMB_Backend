@@ -16,6 +16,7 @@ tabs:
     label: Einstellungen
     icon: cog
     columns:
+
       - width: 2/3
         sections:
           meta:
@@ -44,9 +45,9 @@ tabs:
                 label: Copyright
                 type: textarea
                 size: small
+                disabled: true
                 buttons:
                   - link
-                disabled: false
               legal:
                 label: Legal Notice
                 type: textarea

@@ -1,6 +1,9 @@
 .DS_Store
 
-/media
-/site/accounts
-/site/cache
-/site/sessions
+/public/media
+/storage/accounts
+/storage/cache
+/storage/sessions/*
+/vendor/getkirby/cms
+/content/1_projects/*
+/content/2_about/*
