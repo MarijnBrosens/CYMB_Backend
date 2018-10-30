@@ -6,20 +6,15 @@ Client: Personal Project
 
 ----
 
-Year: 2018
-
-----
-
 Description: Sarah Teneriffa
 
 ----
 
 Cover: 
 
-- >
-  projects/sarah/2015-05-26-12.14.52_0240_web.jpg
-- >
-  projects/sarah/2015-05-26-12.32.55_0381_web.jpg
+- 2015-05-26-11.54.43_0053_web.jpg
+- 2015-05-26-11.54.43_0054_web.jpg
+- 2015-05-26-11.58.49_0079_web.jpg
 
 ----
 
@@ -27,13 +22,8 @@ Layouts:
 
 - 
   images:
-    - 
-      filename: 2015-05-26-12.14.52_0231_web.jpg
-      link: >
-        /pages/projects+sarah/files/2015-05-26-12.14.52_0231_web.jpg
-      id: >
-        projects/sarah/2015-05-26-12.14.52_0231_web.jpg
-      url: >
-        http://127.0.0.1:8888/media/pages/projects/sarah/2015-05-26-12.14.52_0231_web.jpg
-      thumb: >
-        http://127.0.0.1:8888/media/pages/projects/sarah/2015-05-26-12-14-52-0231-web-512x683-q90.jpg
+    - 2015-05-26-12.14.52_0231_web.jpg
+
+----
+
+Year: 2018

@@ -1,33 +1,34 @@
 <?php
-
 return [
-    'debug'  => true,
+    'debug' => false,
     'routes' => [
         [
             'pattern' => 'rest/(:all)',
             'method'  => 'GET',
             'env'     => 'api',
             'action'  => function ($path = null) {
-                $kirby = new Kirby();
-                $kirby->impersonate('api@constantinmirbach.com');
+                $kirby = new Kirby([
+                    'roots' => [
+                        'index'    => dirname(dirname(__DIR__)) . '/public',
+                        'base'     => $base    = dirname(dirname(__DIR__)),
+                        'content'  => $base . '/content',
+                        'site'     => dirname(dirname(__DIR__)) . '/site',
+                        'storage'  => $storage = $base . '/storage',
+                        'accounts' => $storage . '/accounts',
+                        'cache'    => $storage . '/cache',
+                        'sessions' => $storage . '/sessions',
+                    ]
+                ]);
+                $kirby->impersonate('kirby');
 
                 if ($kirby->option('api') === false) {
                     return null;
                 }
 
-                $origin = $_SERVER['HTTP_ORIGIN'];
-                $allowed_domains = [
-                    'http://localhost:8080',
-                    'https://constantinmirbach.com',
-                    'https://www.constantinmirbach.com'
-                ];
-
                 $request = $kirby->request();
                 $headers = $request->headers();
-
-                if (in_array($origin, $allowed_domains)) {
-                    $headers['Access-Control-Allow-Origin'] = $origin;
-                }
+                $csrf = csrf();
+                $headers['X-CSRF'] = $csrf;
 
                 $render = $kirby->api()->render($path, $this->method(), [
                     'body'    => $request->body()->toArray(),
@@ -38,8 +39,7 @@ return [
 
                 $decoded = json_decode($render, true);
 
-                function kt($array)
-                {
+                function kt($array) {
                     foreach ($array as $key => $value) {
                         if (is_array($value)) {
                             $array[$key] = kt($value);
@@ -51,9 +51,9 @@ return [
                 }
 
                 $decoded = kt($decoded);
-                $encoded = json_encode($decoded);
+                $encoded = json_encode($decoded, true);
 
-                return $decoded;
+                return $encoded;
             }
         ]
     ]
