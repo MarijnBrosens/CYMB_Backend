@@ -48,6 +48,7 @@ fields:
         label: Fotos
         type: files
         layout: cards
+        background: white
         size: small
         query: page.images
         max: 3

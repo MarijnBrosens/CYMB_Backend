@@ -15,7 +15,8 @@ columns:
   - width: 2/3
     sections:
       images:
-        extends: sections/images
+        type: files
+        extends: files/default
         headline: Foto
         template: image
         max: 1
@@ -92,7 +93,6 @@ columns:
       clients:
         label: Kunden
         type: structure
-        style: table
         fields:
           client:
             label: Kunde

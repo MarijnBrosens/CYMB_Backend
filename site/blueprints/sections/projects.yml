@@ -2,6 +2,10 @@ headline: Projects
 type: pages
 template: project
 layout: cards
+size: small
+info: "{{page.client}}"
 parent: site.find("projects")
+sortable: true
 image:
   src: page.images.first
+  cover: true
