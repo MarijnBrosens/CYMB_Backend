@@ -1,4 +1,4 @@
-# Conny Mirbach Backend
+# CYMB Backend
 
 ## Installation
 
@@ -7,4 +7,4 @@ composer install --no-dev
 ```
 
 - Make sure the storage and content folders and all subfolders are writable
-- Point your virtual domain to the public folder
+- Point Nginx to the public folder
