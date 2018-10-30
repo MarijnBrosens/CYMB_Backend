@@ -2,6 +2,6 @@ title: Default
 type: files
 accept:
   mime: image/jpeg, image/png
-  maxsize: 120000
+  maxsize: 1100000
   maxwidth: 2600
   maxheight: 2600
