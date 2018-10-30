@@ -32,6 +32,7 @@ tabs:
                 type: textarea
                 size: small
                 maxlength: 150
+                buttons: false
               tags:
                 label: Tags
                 type: tags
@@ -53,3 +54,5 @@ tabs:
                 type: textarea
                 size: small
                 required: true
+                buttons:
+                  - link

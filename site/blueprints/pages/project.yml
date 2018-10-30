@@ -54,5 +54,5 @@ fields:
 
 sidebar:
   images:
-    extends: sections/images
-    headline: Fotos
+    extends: files/default
+    headline: Bildmaterial
