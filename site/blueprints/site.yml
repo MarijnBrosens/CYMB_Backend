@@ -43,7 +43,7 @@ tabs:
             type: fields
             fields:
               copyright:
-                label: Copyright
+                label: Credit
                 type: textarea
                 size: small
                 disabled: true
