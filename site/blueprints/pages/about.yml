@@ -26,12 +26,13 @@ columns:
           title:
             label: Titel
             type:  text
-            readonly: true
+            disabled: true
 
           about:
             label: Beschreibung
-            type: textarea
+            type: text
             size: small
+
           street:
             label: Straße & Hausnummer
             type: text

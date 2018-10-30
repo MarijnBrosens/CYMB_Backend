@@ -27,11 +27,17 @@ fields:
     label: Beschreibung
     type: textarea
     size: small
+    buttons:
+      - italic
+      - link
+    maxlength: 200
 
   cover:
     label: Übersicht
     type: files
     query: page.images
+    required: true
+    help: Bitte möglichst viele Querformate auswählen
 
   layouts:
     type: structure
