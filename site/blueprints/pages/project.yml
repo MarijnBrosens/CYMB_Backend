@@ -52,6 +52,10 @@ fields:
         size: small
         query: page.images
         max: 3
+      caption:
+        label: Caption
+        type: text
+        help: Bitte nur in Ausnahmen ausfüllen
 
 sidebar:
   images:
