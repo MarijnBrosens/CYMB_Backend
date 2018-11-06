@@ -29,6 +29,8 @@ return [
                 $headers = $request->headers();
                 $csrf = csrf();
                 $headers['X-CSRF'] = $csrf;
+                $headers['Cache-Control'] = 'max-age=31536000, public';
+
 
                 $render = $kirby->api()->render($path, $this->method(), [
                     'body'    => $request->body()->toArray(),
