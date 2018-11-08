@@ -1,4 +1,4 @@
-# 🌀Constantin Mirbach Backend
+# 🌀 Constantin Mirbach Backend
 
 Backend built with [Kirby](https://getkirby.com/)
 
