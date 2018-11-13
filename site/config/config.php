@@ -46,7 +46,8 @@ return [
                     $n = 0;
                     foreach ($decoded['data'] as $img) {
                         $img = image($img['id']);
-                        $decoded['data'][$n]['medium'] = $img->resize(1200, 1200, 90)->url();
+                        $decoded['data'][$n]['large'] = $img->resize(1200, 1200, 90)->url();
+                        $decoded['data'][$n]['medium'] = $img->resize(900, 900, 90)->url();
                         $decoded['data'][$n]['small'] = $img->resize(600, 600, 90)->url();
                         $n++;
                     };
@@ -74,10 +75,12 @@ return [
     'hooks' => [
         'file.create:after' => function ($file) {
             $file->resize(1200, 1200, 90)->url();
+            $file->resize(900, 900, 90)->url();
             $file->resize(600, 600, 90)->url();
         },
         'file.update:after' => function ($file) {
             $file->resize(1200, 1200, 90)->url();
+            $file->resize(900, 900, 90)->url();
             $file->resize(600, 600, 90)->url();
         }
     ]
