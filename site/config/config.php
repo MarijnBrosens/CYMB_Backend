@@ -29,9 +29,7 @@ return [
                 $headers = $request->headers();
                 $csrf = csrf();
                 $headers['X-CSRF'] = $csrf;
-                // $headers['Cache-Control'] = 'max-age=31536000, public';
-
-
+                
                 $render = $kirby->api()->render($path, $this->method(), [
                     'body'    => $request->body()->toArray(),
                     'files'   => $request->files()->toArray(),
@@ -41,6 +39,20 @@ return [
 
                 $decoded = json_decode($render, true);
 
+                // Image sizes
+                $segments = explode('/', $path);
+                $last = array_pop($segments);
+                if ($last === "files") {
+                    $n = 0;
+                    foreach ($decoded['data'] as $img) {
+                        $img = image($img['id']);
+                        $decoded['data'][$n]['medium'] = $img->resize(1200, 1200, 90)->url();
+                        $decoded['data'][$n]['small'] = $img->resize(600, 600, 90)->url();
+                        $n++;
+                    };
+                };
+
+                // Kirbytags
                 function kt($array) {
                     foreach ($array as $key => $value) {
                         if (is_array($value)) {
@@ -58,5 +70,15 @@ return [
                 return $encoded;
             }
         ]
+    ],
+    'hooks' => [
+        'file.create:after' => function ($file) {
+            $file->resize(1200, 1200, 90)->url();
+            $file->resize(600, 600, 90)->url();
+        },
+        'file.update:after' => function ($file) {
+            $file->resize(1200, 1200, 90)->url();
+            $file->resize(600, 600, 90)->url();
+        }
     ]
 ];
