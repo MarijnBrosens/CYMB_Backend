@@ -1,7 +1,7 @@
 {
   "name": "cymb-backend",
   "version": "1.0.0",
-  "description": "Kirby powered backend for Conny Mirbach’s portfolio",
+  "description": "Kirby powered backend for Constantin Mirbach’s portfolio",
   "author": "Studio Scholz <„dev@studioscholz.info“>",
   "private": true,
   "scripts": {
