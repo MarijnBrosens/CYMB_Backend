@@ -14,10 +14,6 @@ class ComposerStaticInit3734cfa62ae08f048620506fef5333b6
     );
 
     public static $prefixLengthsPsr4 = array (
-        'Z' => 
-        array (
-            'Zend\\Escaper\\' => 13,
-        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -42,10 +38,6 @@ class ComposerStaticInit3734cfa62ae08f048620506fef5333b6
     );
 
     public static $prefixDirsPsr4 = array (
-        'Zend\\Escaper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-escaper/src',
-        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
