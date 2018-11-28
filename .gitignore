@@ -10,3 +10,4 @@
 /content/site.txt
 
 composer.lock
+/vendor
