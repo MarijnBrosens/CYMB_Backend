@@ -10,5 +10,5 @@
 /content/site.txt
 
 /vendor/*/
-composer.lock
-vendor/*.php
+/composer.lock
+/vendor/*.php
