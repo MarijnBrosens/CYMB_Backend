@@ -1,9 +1,0 @@
-Language: de
-
-----
-
-Password: $2y$10$/rj3NHLSz4JZqurBj83.re/nhllbvaoeliIa/tZiLIiiaEDAXnQs6
-
-----
-
-Role: admin
