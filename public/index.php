@@ -1,13 +1,5 @@
 <?php
 
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Headers: Authorization');
-
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    die('ok');
-}
-
-
 include '../vendor/autoload.php';
 
 $kirby = new Kirby([

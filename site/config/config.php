@@ -23,20 +23,13 @@ return [
                     ]
                 ]);
 
-                $kirby->impersonate('kirby');
-
                 $request = $kirby->request();
-
-                $headers = $request->headers();
-                $csrf = csrf();
-                $headers['X-CSRF'] = $csrf;
                 
                 $render = $kirby->api()->render($path, $this->method(), [
                     'body'    => $request->body()->toArray(),
-                    'headers' => $headers,
+                    'headers' => $request->headers(),
                     'query'   => $request->query()->toArray(),
                 ]);
-
 
                 $decoded = json_decode($render, true);
 
@@ -44,15 +37,18 @@ return [
                 foreach ($decoded['data'] as $project) {
                     if (isset($project['content']['cover'])) {
                         $i = 0;
-                        foreach ($project['content']['cover'] as $img) {
+                        shuffle($project['content']['cover']);
 
-                            $img['large'] = image($img['id'])->resize(1200, 1200, 90)->url();
-                            $img['medium'] = image($img['id'])->resize(900, 900, 90)->url();
-                            $img['small'] = image($img['id'])->resize(600, 600, 90)->url();
+                        $img = $project['content']['cover'][0];
 
-                            $project['content']['cover'][$i] = $img;
-                            $i++;
-                        };
+                        $img['large'] = image($img['id'])->resize(1200, 1200, 90)->url();
+                        $img['medium'] = image($img['id'])->resize(900, 900, 90)->url();
+                        $img['small'] = image($img['id'])->resize(600, 600, 90)->url();
+                        $img['orientation'] = image($img['id'])->orientation();
+                        $img['width'] = image($img['id'])->width();
+                        $img['ratio'] = image($img['id'])->ratio();
+
+                        $project['content']['cover'][0] = $img;
                     };
                     $decoded['data'][$p] = $project;
                     $p++;
@@ -71,9 +67,9 @@ return [
                 }
 
                 $decoded = kt($decoded);
-                // $encoded = json_encode($decoded, true);
+                $encoded = json_encode($decoded, true);
 
-                return $decoded;
+                return $encoded;
             }
         ]
     ],
