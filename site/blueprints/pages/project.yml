@@ -30,7 +30,7 @@ fields:
     buttons:
       - italic
       - link
-    maxlength: 200
+    maxlength: 300
 
   cover:
     label: Übersicht
