@@ -6,7 +6,7 @@
 /storage/sessions/*
 /vendor/getkirby/cms
 /content/1_projects/*/
-/content/2_about/*/
+/content/2_about/*
 /content/site.txt
 
 /vendor/*/
