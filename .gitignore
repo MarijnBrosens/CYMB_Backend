@@ -12,3 +12,4 @@
 /vendor/*/
 /composer.lock
 /vendor/*.php
+kirby/
