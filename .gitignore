@@ -4,12 +4,10 @@
 /storage/accounts/*
 /storage/cache
 /storage/sessions/*
-/vendor/getkirby/cms
 /content/1_projects/*/
 /content/2_about/*
 /content/site.txt
+/site/license.php
 
-/vendor/*/
-/composer.lock
-/vendor/*.php
+/vendor/*
 kirby/
