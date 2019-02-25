@@ -1,13 +1,12 @@
 .DS_Store
 
-/public/media/
-/storage/accounts/*
-/storage/cache
-/storage/sessions/*
-/content/1_projects/*/
-/content/2_about/*
-/content/site.txt
-/site/license.php
+public/media/
+storage/accounts/*
+storage/cache
+storage/sessions/*
+content/1_projects/*
+content/2_about/*
+content/site.txt
+site/license.php
+vendor
 
-/vendor/*
-kirby/
